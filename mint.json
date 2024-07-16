@@ -1,91 +1,65 @@
 {
-  "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
-  "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
-  },
-  "favicon": "/favicon.svg",
-  "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
-    "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
-    }
-  },
-  "topbarLinks": [
-    {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
-    }
-  ],
-  "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
-  },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
-  "anchors": [
-    {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
-    {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
-    }
-  ],
-  "navigation": [
-    {
-      "group": "Get Started",
-      "pages": [
-        "introduction",
-        "quickstart",
-        "development"
-      ]
-    },
-    {
-      "group": "Essentials",
-      "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
-      ]
-    },
-    {
-      "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
-      ]
-    }
-  ],
-  "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
-  }
+	"$schema": "https://mintlify.com/schema.json",
+	"name": "Insany Docs",
+	"logo": {
+		"dark": "/logo/dark.svg",
+		"light": "/logo/light.svg"
+	},
+	"favicon": "/favicon.png",
+	"colors": {
+		"primary": "#FF0074",
+		"light": "#FF5DA6",
+		"dark": "#BF0057",
+		"anchors": {
+			"from": "#BF0057",
+			"to": "#FF5DA6"
+		}
+	},
+	"tabs": [
+		{
+			"name": "Para Designers",
+			"url": "designers"
+		}
+	],
+	"anchors": [
+		{
+			"name": "Github",
+			"icon": "github",
+			"url": "https://github.com/insany-Design"
+		},
+		{
+			"name": "Notion",
+			"icon": "n",
+			"url": "https://www.notion.so/insany/Documenta-es-768fb3271aa2436d8fb4071a58edf34d?pvs=4"
+		}
+	],
+	"navigation": [
+		{
+			"group": "Sobre",
+			"pages": ["quickstart", "documentacao"]
+		},
+		{
+			"group": "Padrões",
+			"pages": ["padroes/boas-praticas", "padroes/design-patterns", "padroes/style-guide"]
+		},
+		{
+			"group": "Boilerplates",
+			"pages": ["boilerplates/nextjs", "boilerplates/wordpress", "boilerplates/vanilla"]
+		},
+		{
+			"group": "Snippets",
+			"pages": ["Prettify"]
+		},
+		{
+			"group": "Componentes",
+			"pages": ["Anchor Button", "RichText", "Accordion"]
+		},
+		{
+			"group": "Changelog",
+			"pages": ["changelog/atualizacoes", "changelog/novidades"]
+		}
+	],
+	"footerSocials": {
+		"github": "https://github.com/Insany-Design"
+	}
 }
